@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: ghostwhite;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* #212121
+#f99E9E
+#F3EBE9
+#FBFBFD */
+
+h2,
+h3 {
+    margin: 0;
+}
+.container {
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
+    /* background: #f3ebe9; */
+    background: #916BBF;
+    border-radius: 10px;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    margin: 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F3F1F5;
+    border-radius: 5px;
+}
+header .logo {
+    font-size: 2em;
+    color: #7f7c82;
+}
+a {
+    text-decoration: none;
+    flex-direction: column;
+    margin: 5px;
+    color: #7f7c82;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+img {
+    border-radius: 5px;
+}
+
+main {
+    padding: 50px;
+    overflow: hidden;
+    background: #F3F1F5;
+    border-radius: 5px;
+    margin: 0px 0px 10px 0px;
+}
+section {
+    width: 70%;
+    float: right;
+    padding: 10px;
+}
+section h2 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+section a {
+    color: #7f7c82;
+    text-align: start;
+}
+section p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+aside {
+    width: 23%;
+    float: left;
+    padding: 20px;
+    height: 270px;
+    border: 2px solid #7f7c82;
+    border-radius: 5px;
+    background: #bfa2db;
+}
+aside h3 {
+    padding: 5px;
+    font-size: 10px;
+    background: #7f7c82;
+    color: whitesmoke;
+    margin: 10px;
+}
+aside li {
+    list-style: none;
+    padding: 10px;
+}
+aside li a{
+    color: whitesmoke;
+}
+
+footer {
+    align-items: center;
+}
+footer p {
+    font-size: 8px;
+}
